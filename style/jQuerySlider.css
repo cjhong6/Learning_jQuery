@@ -1,0 +1,25 @@
+/*Only this size is visible*/
+#slider {
+    width: 240px;
+    height: 270px;
+    overflow: hidden;
+    /*background: red;*/
+}
+/*How long is the slider in oder to put every picture in the same line */
+#slider .slides {
+    display: block;
+    width: 1507px;
+    height: 270px;
+    margin: 0;
+    padding: 0;
+    /*background: black;*/
+}
+
+/*make single slide size fit in the visible part*/
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 240px;
+    height: 270px;
+    /*background:yellow;*/
+}
